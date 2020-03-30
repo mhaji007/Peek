@@ -20,6 +20,15 @@ class GoogleAuth extends Component {
 
 onAuthChanged = () => {
     this.setState({isSignedIn:this.auth.isSignedIn.get()})
+};
+
+onSignIn = () => {
+    this.auth.signIn();
+}
+
+onSignOut = () => {
+    this.auth.signOut();
+
 }
 
     renderAuthButton() {
@@ -28,7 +37,7 @@ onAuthChanged = () => {
         }
         else if (this.state.isSignedIn === true){
             return (
-                <button className="ui red google button">
+                <button onClick={this.onSignOut} className="ui red google button">
                     <i className="google icon"/>
                     Sign Out
                 </button>
@@ -36,7 +45,7 @@ onAuthChanged = () => {
         }
         else{
             return (
-                <button className="ui red google button">
+                <button onClick={this.onSignIn} className="ui red google button">
                     <i className="google icon"/>
                     Sign In with Google
                 </button>
