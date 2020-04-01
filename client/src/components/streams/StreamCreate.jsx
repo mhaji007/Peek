@@ -15,8 +15,9 @@ class StreamCreate extends React.Component {
 
 renderInput = (formProps) => {
     // return <input onChange={formProps.input.onChange} value={formProps.input.value} />
+    const className = `field ${formProps.meta.error && formProps.meta.touched ? 'error':''}`;
     return ( 
-        <div className="field">
+        <div className={className}>
             <label>{formProps.label}</label>
             <input {...formProps.input} autoComplete="off"/>
             {this.renderError(formProps.meta)}
@@ -30,7 +31,7 @@ renderInput = (formProps) => {
     }
  render () {
     return(
-        <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form">
+        <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
             <Field name="title" component={this.renderInput} label = "Enter Title" />
             <Field name="description" component={this.renderInput} label = "Enter Description" />
         <button className="ui button primary">Submit</button>
