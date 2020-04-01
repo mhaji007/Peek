@@ -8,6 +8,7 @@ renderInput(formProps){
         <div className="field">
             <label>{formProps.label}</label>
             <input {...formProps.input}/>
+            <div>{formProps.meta.error}</div>
         </div>
     );
     }
@@ -40,6 +41,7 @@ const validate = (formValues) => {
 }
 
 export default reduxForm({
-    form: 'StreamCreate'
+    form: 'StreamCreate',
+    validate: validate
 }
 )(StreamCreate);
