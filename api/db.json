@@ -1,4 +1,69 @@
 {
-    "streams": []
-
+  "streams": [
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 1
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 2
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 3
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 4
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 5
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 6
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 7
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 8
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 9
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 10
+    },
+    {
+      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
+      "a.dispatch.apply(a,arguments)}": "",
+      "id": 11
+    },
+    {
+      "title": "First",
+      "description": "Second",
+      "id": 12
+    },
+    {
+      "title": "First",
+      "description": "Second",
+      "id": 13
+    }
+  ]
 }
