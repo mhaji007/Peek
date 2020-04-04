@@ -1,69 +1,26 @@
 {
   "streams": [
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
+      "title": "First Stream",
+      "description": "Here's the first stream",
       "id": 1
     },
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
+      "title": "Second Stream",
+      "description": "Here's the second stream",
       "id": 2
     },
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
+      "title": "I created this stream",
+      "description": "This was made by me!",
+      "userId": null,
       "id": 3
     },
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
+      "title": "I created this stream",
+      "description": "This was made by me!",
+      "userId": "102977461546060065690",
       "id": 4
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 5
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 6
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 7
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 8
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 9
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 10
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 11
-    },
-    {
-      "title": "First",
-      "description": "Second",
-      "id": 12
-    },
-    {
-      "title": "First",
-      "description": "Second",
-      "id": 13
     }
   ]
 }
